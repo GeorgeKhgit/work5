@@ -1,0 +1,75 @@
+// SemiBold
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: local("Montserrat-SemiBold"),
+    url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
+    url("../fonts/Montserrat-SemiBold.woff") format("woff"),
+    url("../fonts/Montserrat-SemiBold.ttf") format("truetype"),
+    url("../fonts/Montserrat-SemiBold.eot") format("eot");
+  font-display: swap;
+}
+
+// ExtraBold
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: local("Montserrat-ExtraBold"),
+    url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Montserrat-ExtraBold.woff") format("woff"),
+    url("../fonts/Montserrat-ExtraBold.ttf") format("truetype"),
+    url("../fonts/Montserrat-ExtraBold.eot") format("eot");
+  font-display: swap;
+}
+
+// Medium
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: local("Montserrat-Medium"),
+    url("../fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("../fonts/Montserrat-Medium.woff") format("woff"),
+    url("../fonts/Montserrat-Medium.ttf") format("truetype"),
+    url("../fonts/Montserrat-Medium.eot") format("eot");
+  font-display: swap;
+}
+
+// Bold
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: local("Montserrat-Bold"),
+    url("../fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("../fonts/Montserrat-Bold.woff") format("woff"),
+    url("../fonts/Montserrat-Bold.ttf") format("truetype"),
+    url("../fonts/Montserrat-Bold.eot") format("eot");
+  font-display: swap;
+}
+
+// Light
+@font-face {
+  font-family: "Gilroy-Light";
+  src: local("Gilroy-Light"), url("../fonts/Gilroy-Light.woff2") format("woff2"),
+    url("../fonts/Gilroy-Light.woff") format("woff"),
+    url("../fonts/Gilroy-Light.ttf") format("truetype"),
+    url("../fonts/Gilroy-Light.eot") format("eot");
+  font-display: swap;
+}
+
+// GillSansNova-SemiBold
+@font-face {
+  font-family: "GillSansNova-SemiBold";
+  src: local("GillSansNova-SemiBold"),
+    url("../fonts/GillSansNova-SemiBold.woff2") format("woff2"),
+    url("../fonts/GillSansNova-SemiBold.woff") format("woff"),
+    url("../fonts/GillSansNova-SemiBold.ttf") format("truetype"),
+    url("../fonts/GillSansNova-SemiBold.eot") format("eot");
+  font-display: swap;
+}
+
+// GillSansNova-Light
+@font-face {
+  font-family: "GillSansNova-Light";
+  src: local("GillSansNova-Light"),
+    url("../fonts/GillSansNova-Light.woff2") format("woff2"),
+    url("../fonts/GillSansNova-Light.woff") format("woff"),
+    url("../fonts/GillSansNova-Light.ttf") format("truetype"),
+    url("../fonts/GillSansNova-Light.eot") format("eot");
+  font-display: swap;
+}

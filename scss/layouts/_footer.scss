@@ -1,0 +1,96 @@
+.footer_container {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  background: #101010;
+  padding-bottom: 60px;
+}
+.footer_container__container {
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+.footer_container__container_heading {
+  color: #ffffff;
+  font-family: $ggnoveSemiBold;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 55px;
+}
+.footer_container__container_heading__a {
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  font-family: $ggnoveSemiBold;
+  font-size: 41px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 3px;
+}
+.footer_container__container_line {
+  width: 95%;
+  max-width: 100%;
+  height: 1px;
+  margin-top: 64px;
+  background-color: #ffffff;
+}
+.footer_container__container_contact_date {
+  width: 95%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer_container__container_contactus {
+  color: #ffffff;
+  font-family: $ggnoveSemiBold;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 40px;
+  line-height: 30px;
+}
+.footer_container__container_contactus_tel {
+  color: #ffffff;
+  font-family: $ggnoveSemilight;
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: none;
+  display: block;
+  margin-top: 36px;
+}
+.footer_container__container_contact_date_icons {
+  align-self: center;
+}
+.footer_container__container_contact_date_icons_div {
+  display: flex;
+  width: 90px;
+  max-width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer_last_caption {
+  text-align: center;
+  color: #ffffff;
+  font-family: $ggnoveSemilight;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+@include PhoneScreen {
+  .footer_container__container_heading__a {
+    font-size: 30px;
+  }
+  .footer_container__container_contactus {
+    font-size: 18px;
+  }
+  .footer_container__container_contactus_tel {
+    font-size: 18px;
+  }
+  .footer_last_caption{
+      font-size:16px;
+  }
+}

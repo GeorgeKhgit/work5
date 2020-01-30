@@ -1,0 +1,40 @@
+@mixin DesktopScreen {
+  @media screen and(max-width:1300px) {
+    @content;
+  }
+}
+@mixin SliderCOmplete {
+  @media screen and(max-width:1150px) {
+    @content;
+  }
+}
+@mixin IpadScreenReverseNote {
+  @media screen and(max-width:1045px) {
+    @content;
+  }
+}
+@mixin IpadScreenReverseNotePad {
+  @media screen and(max-width:1035px) {
+    @content;
+  }
+}
+@mixin IpadScreenReverse {
+  @media screen and(max-width:1024px) {
+    @content;
+  }
+}
+@mixin logotypeControl {
+  @media screen and (max-width: 810px) {
+    @content;
+  }
+}
+@mixin IpadScreen {
+  @media screen and(max-width:768px) {
+    @content;
+  }
+}
+@mixin PhoneScreen {
+  @media screen and(max-width:415px) {
+    @content;
+  }
+}

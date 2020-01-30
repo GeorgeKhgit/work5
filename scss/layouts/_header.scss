@@ -1,0 +1,145 @@
+.header_container {
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  background: url("../img/main/Untitled-2.png") no-repeat top center;
+  background-size: cover;
+}
+.header_container__content {
+  width: 90%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  //   position: fixed;
+  //   left:0;
+  //   right:0;
+}
+.header_container__content_outsider {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.header_container__navbar {
+  width: 600px;
+  max-width: 100%;
+  margin-top: 66px;
+}
+.header_container__navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.header_container__navbar ul li a {
+  font-family: $mSemiBold;
+  color: #fefefe;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.main_heading {
+  color: #fefefe;
+  font-family: $mExtraBold;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 100px;
+}
+.main_heading__headertwolevel {
+  color: #fefefe;
+  font-family: $mMedium;
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}
+.main_heading__headerbutton {
+  display: block;
+  margin: 69px auto 0px auto;
+  width: 311px;
+  max-width: 100%;
+  height: 60px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: #3c2670;
+  font-family: $mSemiBold;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  transition: all 0.5s ease;
+}
+.main_heading__headerbutton:hover {
+  border: 1px solid #fff;
+  background: none;
+  transition: all 0.5s ease;
+  color: #fff;
+}
+.header_container__logotype {
+  margin-top: 66px;
+}
+.header_container__logotype a {
+  text-decoration: none;
+  color: #fefefe;
+  font-family: $mExtraBold;
+  font-size: 30px;
+}
+
+// Media_Request
+@include IpadScreenReverse {
+  .header_container__navbar {
+    margin: 66px auto 0px auto;
+  }
+}
+@include logotypeControl {
+  .header_container__logotype {
+    display: none;
+  }
+}
+@include IpadScreen {
+  .header_container {
+    height: auto;
+    padding-bottom: 130px;
+  }
+  .header_container__navbar ul li a {
+    font-size: 14px;
+  }
+  .header_container__navbar {
+    width: 500px;
+    max-width: 100%;
+    margin: 50px auto 0px auto;
+  }
+  .main_heading {
+    font-size: 55px;
+    word-wrap: break-word;
+  }
+  .main_heading__headertwolevel {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+}
+@include PhoneScreen {
+  .header_container__content {
+    width: 95%;
+    max-width: 100%;
+  }
+  .header_container__navbar ul li a {
+    font-size: 12px;
+  }
+  .main_heading {
+    font-size: 30px;
+  }
+  .main_heading__headertwolevel {
+    font-size: 14px;
+  }
+  .main_heading__headerbutton {
+    font-size: 15px;
+    margin: 30px auto 0px auto;
+    width: 200px;
+    max-width: 100%;
+    height: 40px;
+  }
+}
